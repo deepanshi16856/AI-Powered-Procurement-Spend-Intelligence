@@ -1,0 +1,256 @@
+line_id,predicted_l1,predicted_l2,predicted_l3,confidence,classification_method,_match_id,category_l1,category_l2,category_l3
+B002650,Logistics,Freight,Courier & Postage,0.5775,LABEL_MATCH,B002650,Professional Services,Consulting & Contractors,Consulting & IT Contractors
+B002667,Indirect Materials,MRO,Tools & Shop Consumables,1.0,LABEL_MATCH,B002667,Indirect Materials,MRO,Tools & Shop Consumables
+B002818,Facilities,Environmental,Waste Disposal & Recycling,0.311,LABEL_MATCH,B002818,Indirect Materials,MRO,Mechanical Spare Parts
+B002906,Professional Services,"Audit, Legal & Advisory","Audit, Legal & Advisory",0.7408,LABEL_MATCH,B002906,Professional Services,"Audit, Legal & Advisory","Audit, Legal & Advisory"
+B003133,Facilities,Facility Services,Cleaning,1.0,LABEL_MATCH,B003133,Facilities,Facility Services,Cleaning
+B003203,Logistics,Freight,Road & Sea Freight,0.3788,LABEL_MATCH,B003203,Indirect Materials,MRO,Mechanical Spare Parts
+B003583,Logistics,Freight,Courier & Postage,1.0,LABEL_MATCH,B003583,Logistics,Freight,Courier & Postage
+B003629,Professional Services,Consulting & Contractors,Consulting & IT Contractors,1.0,LABEL_MATCH,B003629,Professional Services,Consulting & Contractors,Consulting & IT Contractors
+B003767,Logistics,Freight,Courier & Postage,1.0,LABEL_MATCH,B003767,Logistics,Freight,Courier & Postage
+B004136,Facilities,Facility Services,Security,1.0,LABEL_MATCH,B004136,Facilities,Facility Services,Security
+B004716,Logistics,Freight,Courier & Postage,1.0,LABEL_MATCH,B004716,Logistics,Freight,Courier & Postage
+B004734,IT & Telecom,Telecom,Voice & Data,1.0,LABEL_MATCH,B004734,IT & Telecom,Telecom,Voice & Data
+B004744,IT & Telecom,Software,Licences & Subscriptions,1.0,LABEL_MATCH,B004744,IT & Telecom,Software,Licences & Subscriptions
+B004787,IT & Telecom,Software,Licences & Subscriptions,0.6711,LABEL_MATCH,B004787,IT & Telecom,Software,Licences & Subscriptions
+B004835,IT & Telecom,Telecom,Voice & Data,0.7655,LABEL_MATCH,B004835,IT & Telecom,Telecom,Voice & Data
+B005006,IT & Telecom,IT Hardware,End-user & Network Hardware,0.7689,LABEL_MATCH,B005006,IT & Telecom,IT Hardware,End-user & Network Hardware
+B005135,Indirect Materials,MRO,Mechanical Spare Parts,0.3783,LABEL_MATCH,B005135,Indirect Materials,MRO,Mechanical Spare Parts
+B005172,Facilities,Maintenance Services,Repair & Maintenance Services,0.5056,LABEL_MATCH,B005172,Facilities,Maintenance Services,Repair & Maintenance Services
+B005467,Indirect Materials,MRO,Mechanical Spare Parts,0.4493,LABEL_MATCH,B005467,Indirect Materials,MRO,Mechanical Spare Parts
+B005480,Packaging Materials,Pallets & Load Units,Top Frames & Layer Pads,1.0,LABEL_MATCH,B005480,Packaging Materials,Pallets & Load Units,Top Frames & Layer Pads
+B005483,Packaging Materials,Wrapping & Strapping,"Film, Strapping & Corner Boards",1.0,LABEL_MATCH,B005483,Packaging Materials,Wrapping & Strapping,"Film, Strapping & Corner Boards"
+B005704,Packaging Materials,Pallets & Load Units,Pallets,1.0,LABEL_MATCH,B005704,Packaging Materials,Pallets & Load Units,Pallets
+B005944,Indirect Materials,MRO,Mechanical Spare Parts,0.4866,LABEL_MATCH,B005944,Indirect Materials,MRO,Filters
+B006109,Indirect Materials,MRO,Electrical & Automation Parts,0.2898,LABEL_MATCH,B006109,Indirect Materials,MRO,Electrical & Automation Parts
+B006247,Indirect Materials,MRO,Mechanical Spare Parts,0.4724,LABEL_MATCH,B006247,Indirect Materials,MRO,Mechanical Spare Parts
+B006291,Packaging Materials,Pallets & Load Units,Pallets,1.0,LABEL_MATCH,B006291,Packaging Materials,Pallets & Load Units,Pallets
+B006347,Direct Materials,Coatings & Inks,Inks & Varnishes,0.3176,LABEL_MATCH,B006347,Indirect Materials,MRO,Electrical & Automation Parts
+B006428,Packaging Materials,Pallets & Load Units,Top Frames & Layer Pads,1.0,LABEL_MATCH,B006428,Packaging Materials,Pallets & Load Units,Top Frames & Layer Pads
+B007176,Facilities,Maintenance Services,Repair & Maintenance Services,0.8469,LABEL_MATCH,B007176,Facilities,Maintenance Services,Repair & Maintenance Services
+B007353,Indirect Materials,MRO,Mechanical Spare Parts,0.7769,LABEL_MATCH,B007353,Indirect Materials,MRO,Mechanical Spare Parts
+B007424,Indirect Materials,MRO,Mechanical Spare Parts,0.3964,LABEL_MATCH,B007424,Indirect Materials,MRO,Mechanical Spare Parts
+B007894,Packaging Materials,Pallets & Load Units,Pallets,1.0,LABEL_MATCH,B007894,Packaging Materials,Pallets & Load Units,Pallets
+B008036,Packaging Materials,Pallets & Load Units,Pallets,1.0,LABEL_MATCH,B008036,Packaging Materials,Pallets & Load Units,Pallets
+B008709,Logistics,Customs & Brokerage,Customs Clearance & Duties,0.5928,LABEL_MATCH,B008709,Indirect Materials,MRO,Lubricants & Oils
+B008935,Logistics,Freight,Road & Sea Freight,0.5961,LABEL_MATCH,B008935,Logistics,Freight,Road & Sea Freight
+B008972,Indirect Materials,MRO,Mechanical Spare Parts,0.4308,LABEL_MATCH,B008972,Indirect Materials,MRO,Mechanical Spare Parts
+B009205,Direct Materials,Aluminium,Can Body Stock (coil),0.9621,LABEL_MATCH,B009205,Direct Materials,Aluminium,Can Body Stock (coil)
+B009425,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B009425,Direct Materials,Aluminium,Can Body Stock (coil)
+B009754,Direct Materials,Ends & Closures,Can Ends,0.7642,LABEL_MATCH,B009754,Direct Materials,Ends & Closures,Can Ends
+B009755,Direct Materials,Ends & Closures,Can Ends,0.8742,LABEL_MATCH,B009755,Direct Materials,Ends & Closures,Can Ends
+B009840,Indirect Materials,MRO,Tools & Shop Consumables,1.0,LABEL_MATCH,B009840,Indirect Materials,MRO,Tools & Shop Consumables
+B009880,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B009880,Direct Materials,Aluminium,Can Body Stock (coil)
+B009976,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B009976,Direct Materials,Aluminium,Can Body Stock (coil)
+B010013,Indirect Materials,MRO,Mechanical Spare Parts,0.8459,LABEL_MATCH,B010013,Indirect Materials,MRO,Mechanical Spare Parts
+B010015,Indirect Materials,MRO,Mechanical Spare Parts,0.6865,LABEL_MATCH,B010015,Indirect Materials,MRO,Mechanical Spare Parts
+B010175,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B010175,Direct Materials,Aluminium,Can Body Stock (coil)
+B010208,Direct Materials,Ends & Closures,Can Ends,1.0,LABEL_MATCH,B010208,Direct Materials,Ends & Closures,Can Ends
+B010309,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B010309,Direct Materials,Aluminium,Can Body Stock (coil)
+B010312,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B010312,Direct Materials,Aluminium,Can Body Stock (coil)
+B010509,Indirect Materials,MRO,Mechanical Spare Parts,0.3672,LABEL_MATCH,B010509,Indirect Materials,MRO,Tools & Shop Consumables
+B010542,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B010542,Direct Materials,Aluminium,Can Body Stock (coil)
+B010543,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B010543,Direct Materials,Aluminium,Can Body Stock (coil)
+B010687,Logistics,Freight,Courier & Postage,0.335,LABEL_MATCH,B010687,Facilities,Office,Office Supplies
+B010966,Facilities,Maintenance Services,Repair & Maintenance Services,0.6945,LABEL_MATCH,B010966,Facilities,Maintenance Services,Repair & Maintenance Services
+B011015,Direct Materials,Ends & Closures,Can Ends,1.0,LABEL_MATCH,B011015,Direct Materials,Ends & Closures,Can Ends
+B011375,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B011375,Direct Materials,Aluminium,Can Body Stock (coil)
+B011612,Direct Materials,Aluminium,Can Body Stock (coil),0.683,LABEL_MATCH,B011612,Direct Materials,Aluminium,Can Body Stock (coil)
+B012096,Indirect Materials,MRO,Mechanical Spare Parts,0.4369,LABEL_MATCH,B012096,Indirect Materials,MRO,Mechanical Spare Parts
+B012101,Logistics,Freight,Courier & Postage,0.3912,LABEL_MATCH,B012101,Indirect Materials,MRO,Mechanical Spare Parts
+B012274,Indirect Materials,MRO,Mechanical Spare Parts,0.8281,LABEL_MATCH,B012274,Indirect Materials,MRO,Mechanical Spare Parts
+B012469,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B012469,Direct Materials,Aluminium,Can Body Stock (coil)
+B012565,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B012565,Direct Materials,Aluminium,Can Body Stock (coil)
+B012570,Indirect Materials,MRO,Tools & Shop Consumables,0.8961,LABEL_MATCH,B012570,Indirect Materials,MRO,Tools & Shop Consumables
+B013025,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B013025,Direct Materials,Aluminium,Can Body Stock (coil)
+B013028,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B013028,Direct Materials,Aluminium,Can Body Stock (coil)
+B013257,Indirect Materials,MRO,Mechanical Spare Parts,0.5679,LABEL_MATCH,B013257,Indirect Materials,MRO,Mechanical Spare Parts
+B013260,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B013260,Direct Materials,Aluminium,Can Body Stock (coil)
+B013460,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B013460,Direct Materials,Aluminium,Can Body Stock (coil)
+B013490,Indirect Materials,MRO,Electrical & Automation Parts,0.3178,LABEL_MATCH,B013490,Indirect Materials,MRO,Electrical & Automation Parts
+B013672,Indirect Materials,MRO,Mechanical Spare Parts,0.5101,LABEL_MATCH,B013672,Indirect Materials,MRO,Mechanical Spare Parts
+B013748,Indirect Materials,MRO,Mechanical Spare Parts,0.4472,LABEL_MATCH,B013748,Indirect Materials,MRO,Mechanical Spare Parts
+B013867,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B013867,Direct Materials,Aluminium,Can Body Stock (coil)
+B013927,Indirect Materials,Safety,PPE & First Aid,0.8862,LABEL_MATCH,B013927,Indirect Materials,Safety,PPE & First Aid
+B013936,Indirect Materials,MRO,Mechanical Spare Parts,0.5397,LABEL_MATCH,B013936,Indirect Materials,MRO,Mechanical Spare Parts
+B013959,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B013959,Direct Materials,Aluminium,Can Body Stock (coil)
+B014105,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B014105,Direct Materials,Aluminium,Can Body Stock (coil)
+B014447,Indirect Materials,MRO,Mechanical Spare Parts,0.4743,LABEL_MATCH,B014447,Indirect Materials,MRO,Mechanical Spare Parts
+B014536,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B014536,Direct Materials,Aluminium,Can Body Stock (coil)
+B014599,Facilities,Maintenance Services,Repair & Maintenance Services,0.8089,LABEL_MATCH,B014599,Facilities,Maintenance Services,Repair & Maintenance Services
+B014788,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B014788,Direct Materials,Aluminium,Can Body Stock (coil)
+B014870,Indirect Materials,MRO,Mechanical Spare Parts,0.5606,LABEL_MATCH,B014870,Indirect Materials,MRO,Mechanical Spare Parts
+B014871,Indirect Materials,MRO,Mechanical Spare Parts,0.7082,LABEL_MATCH,B014871,Indirect Materials,MRO,Mechanical Spare Parts
+B015023,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B015023,Direct Materials,Aluminium,Can Body Stock (coil)
+B015078,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B015078,Direct Materials,Aluminium,Can Body Stock (coil)
+B015356,Indirect Materials,MRO,Electrical & Automation Parts,0.9293,LABEL_MATCH,B015356,Indirect Materials,MRO,Electrical & Automation Parts
+B015471,Indirect Materials,MRO,Lubricants & Oils,0.3474,LABEL_MATCH,B015471,Indirect Materials,MRO,Lubricants & Oils
+B015605,Indirect Materials,MRO,Mechanical Spare Parts,0.6718,LABEL_MATCH,B015605,Indirect Materials,MRO,Mechanical Spare Parts
+B015737,Indirect Materials,Safety,PPE & First Aid,0.9175,LABEL_MATCH,B015737,Indirect Materials,Safety,PPE & First Aid
+B015747,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B015747,Direct Materials,Aluminium,Can Body Stock (coil)
+B015952,Facilities,Maintenance Services,Repair & Maintenance Services,0.3797,LABEL_MATCH,B015952,Indirect Materials,MRO,Electrical & Automation Parts
+B016013,Utilities,Energy,Gas & Propane,0.9866,LABEL_MATCH,B016013,Utilities,Energy,Gas & Propane
+B016053,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B016053,Direct Materials,Aluminium,Can Body Stock (coil)
+B016137,Logistics,Freight,Courier & Postage,1.0,LABEL_MATCH,B016137,Logistics,Freight,Courier & Postage
+B016154,Facilities,Facility Services,Cleaning,0.5447,LABEL_MATCH,B016154,Facilities,Facility Services,Cleaning
+B016220,Indirect Materials,MRO,Mechanical Spare Parts,0.3883,LABEL_MATCH,B016220,Utilities,Energy,Gas & Propane
+B016334,Indirect Materials,MRO,Tools & Shop Consumables,0.4229,LABEL_MATCH,B016334,Indirect Materials,MRO,Tools & Shop Consumables
+B016367,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B016367,Direct Materials,Aluminium,Can Body Stock (coil)
+B016443,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B016443,Direct Materials,Aluminium,Can Body Stock (coil)
+B016497,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B016497,Direct Materials,Aluminium,Can Body Stock (coil)
+B016613,Indirect Materials,MRO,Mechanical Spare Parts,0.6249,LABEL_MATCH,B016613,Indirect Materials,MRO,Mechanical Spare Parts
+B016669,Indirect Materials,MRO,Mechanical Spare Parts,0.548,LABEL_MATCH,B016669,Indirect Materials,MRO,Mechanical Spare Parts
+B016935,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B016935,Direct Materials,Aluminium,Can Body Stock (coil)
+B016979,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B016979,Direct Materials,Aluminium,Can Body Stock (coil)
+B017052,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B017052,Direct Materials,Aluminium,Can Body Stock (coil)
+B017053,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B017053,Direct Materials,Aluminium,Can Body Stock (coil)
+B017121,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B017121,Direct Materials,Aluminium,Can Body Stock (coil)
+B017304,Indirect Materials,MRO,Mechanical Spare Parts,0.4892,LABEL_MATCH,B017304,Indirect Materials,MRO,Tools & Shop Consumables
+B017346,Indirect Materials,Safety,PPE & First Aid,0.4657,TAXONOMY_MATCH,B017346,Indirect Materials,Safety,PPE & First Aid
+B017610,Indirect Materials,MRO,Mechanical Spare Parts,0.589,LABEL_MATCH,B017610,Indirect Materials,MRO,Mechanical Spare Parts
+B017951,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings",0.3662,LABEL_MATCH,B017951,Indirect Materials,MRO,Lubricants & Oils
+B017982,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B017982,Direct Materials,Aluminium,Can Body Stock (coil)
+B018128,Indirect Materials,MRO,Mechanical Spare Parts,1.0,LABEL_MATCH,B018128,Indirect Materials,MRO,Mechanical Spare Parts
+B018209,Indirect Materials,MRO,Mechanical Spare Parts,0.5112,LABEL_MATCH,B018209,Indirect Materials,MRO,Mechanical Spare Parts
+B018486,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B018486,Direct Materials,Aluminium,Can Body Stock (coil)
+B018630,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B018630,Direct Materials,Aluminium,Can Body Stock (coil)
+B018709,Facilities,Maintenance Services,Repair & Maintenance Services,0.5119,LABEL_MATCH,B018709,Facilities,Facility Services,Cleaning
+B019037,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B019037,Direct Materials,Aluminium,Can Body Stock (coil)
+B019124,Logistics,Freight,Road & Sea Freight,0.4301,LABEL_MATCH,B019124,IT & Telecom,IT Hardware,End-user & Network Hardware
+B019129,Indirect Materials,MRO,Mechanical Spare Parts,0.559,LABEL_MATCH,B019129,Indirect Materials,MRO,Mechanical Spare Parts
+B019284,Indirect Materials,MRO,Mechanical Spare Parts,0.3378,LABEL_MATCH,B019284,Indirect Materials,MRO,Tools & Shop Consumables
+B019356,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B019356,Direct Materials,Aluminium,Can Body Stock (coil)
+B019367,Indirect Materials,MRO,Lubricants & Oils,1.0,LABEL_MATCH,B019367,Indirect Materials,MRO,Lubricants & Oils
+B019479,Indirect Materials,MRO,Mechanical Spare Parts,0.3635,LABEL_MATCH,B019479,Indirect Materials,MRO,Electrical & Automation Parts
+B019613,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B019613,Direct Materials,Aluminium,Can Body Stock (coil)
+B019774,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B019774,Direct Materials,Aluminium,Can Body Stock (coil)
+B019905,Indirect Materials,MRO,Mechanical Spare Parts,0.8482,LABEL_MATCH,B019905,Indirect Materials,MRO,Mechanical Spare Parts
+B020026,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020026,Direct Materials,Aluminium,Can Body Stock (coil)
+B020055,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020055,Direct Materials,Aluminium,Can Body Stock (coil)
+B020208,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020208,Direct Materials,Aluminium,Can Body Stock (coil)
+B020232,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020232,Direct Materials,Aluminium,Can Body Stock (coil)
+B020253,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020253,Direct Materials,Aluminium,Can Body Stock (coil)
+B020293,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020293,Direct Materials,Aluminium,Can Body Stock (coil)
+B020335,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020335,Direct Materials,Aluminium,Can Body Stock (coil)
+B020379,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020379,Direct Materials,Aluminium,Can Body Stock (coil)
+B020406,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020406,Direct Materials,Aluminium,Can Body Stock (coil)
+B020474,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020474,Direct Materials,Aluminium,Can Body Stock (coil)
+B020503,Direct Materials,Aluminium,Tab Stock (coil),1.0,LABEL_MATCH,B020503,Direct Materials,Aluminium,Tab Stock (coil)
+B020760,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020760,Direct Materials,Aluminium,Can Body Stock (coil)
+B020787,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020787,Direct Materials,Aluminium,Can Body Stock (coil)
+B020806,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020806,Direct Materials,Aluminium,Can Body Stock (coil)
+B020814,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020814,Direct Materials,Aluminium,Can Body Stock (coil)
+B020875,Direct Materials,Aluminium,Tab Stock (coil),1.0,LABEL_MATCH,B020875,Direct Materials,Aluminium,Tab Stock (coil)
+B020973,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B020973,Direct Materials,Aluminium,Can Body Stock (coil)
+B020997,Direct Materials,Aluminium,Tab Stock (coil),1.0,LABEL_MATCH,B020997,Direct Materials,Aluminium,Tab Stock (coil)
+B021084,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B021084,Direct Materials,Aluminium,Can Body Stock (coil)
+B021091,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B021091,Direct Materials,Aluminium,Can Body Stock (coil)
+B021113,Direct Materials,Aluminium,Tab Stock (coil),1.0,LABEL_MATCH,B021113,Direct Materials,Aluminium,Tab Stock (coil)
+B021214,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B021214,Direct Materials,Aluminium,Can Body Stock (coil)
+B021420,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B021420,Direct Materials,Aluminium,Can Body Stock (coil)
+B025069,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025069,Direct Materials,Aluminium,Ingot & Metal Premium
+B025083,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025083,Direct Materials,Aluminium,Ingot & Metal Premium
+B025084,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B025084,Direct Materials,Aluminium,Can Body Stock (coil)
+B025098,Indirect Materials,MRO,Filters,0.3935,LABEL_MATCH,B025098,Indirect Materials,MRO,Filters
+B025121,Indirect Materials,MRO,Mechanical Spare Parts,0.4751,LABEL_MATCH,B025121,Indirect Materials,MRO,Mechanical Spare Parts
+B025190,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B025190,Direct Materials,Aluminium,Can End Stock (coil)
+B025391,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025391,Direct Materials,Aluminium,Ingot & Metal Premium
+B025398,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025398,Direct Materials,Aluminium,Ingot & Metal Premium
+B025401,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025401,Direct Materials,Aluminium,Ingot & Metal Premium
+B025417,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025417,Direct Materials,Aluminium,Ingot & Metal Premium
+B025424,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025424,Direct Materials,Aluminium,Ingot & Metal Premium
+B025427,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025427,Direct Materials,Aluminium,Ingot & Metal Premium
+B025444,Facilities,Facility Services,Equipment & Site Rental,0.5596,LABEL_MATCH,B025444,Facilities,Facility Services,Equipment & Site Rental
+B025506,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025506,Direct Materials,Aluminium,Ingot & Metal Premium
+B025513,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B025513,Direct Materials,Aluminium,Can End Stock (coil)
+B025777,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025777,Direct Materials,Aluminium,Ingot & Metal Premium
+B025822,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B025822,Direct Materials,Aluminium,Can End Stock (coil)
+B025823,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B025823,Direct Materials,Aluminium,Can End Stock (coil)
+B025896,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B025896,Direct Materials,Aluminium,Ingot & Metal Premium
+B026148,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B026148,Direct Materials,Aluminium,Can End Stock (coil)
+B026490,Logistics,Freight,Road & Sea Freight,1.0,LABEL_MATCH,B026490,Logistics,Freight,Road & Sea Freight
+B026493,Direct Materials,Aluminium,Can Body Stock (coil),0.7325,LABEL_MATCH,B026493,Direct Materials,Aluminium,Can Body Stock (coil)
+B026701,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B026701,Direct Materials,Aluminium,Can Body Stock (coil)
+B026991,Logistics,Freight,Road & Sea Freight,1.0,LABEL_MATCH,B026991,Logistics,Freight,Road & Sea Freight
+B027569,Logistics,Freight,Road & Sea Freight,1.0,LABEL_MATCH,B027569,Logistics,Freight,Road & Sea Freight
+B027691,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B027691,Direct Materials,Aluminium,Ingot & Metal Premium
+B027694,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B027694,Direct Materials,Aluminium,Ingot & Metal Premium
+B027733,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B027733,Direct Materials,Aluminium,Ingot & Metal Premium
+B027743,Logistics,Freight,Road & Sea Freight,1.0,LABEL_MATCH,B027743,Logistics,Freight,Road & Sea Freight
+B028112,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B028112,Direct Materials,Aluminium,Ingot & Metal Premium
+B028183,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B028183,Direct Materials,Aluminium,Ingot & Metal Premium
+B028230,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B028230,Direct Materials,Aluminium,Ingot & Metal Premium
+B028469,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B028469,Direct Materials,Aluminium,Can Body Stock (coil)
+B028482,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B028482,Direct Materials,Aluminium,Can Body Stock (coil)
+B028665,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B028665,Direct Materials,Aluminium,Ingot & Metal Premium
+B028732,Direct Materials,Aluminium,Can End Stock (coil),0.8084,LABEL_MATCH,B028732,Direct Materials,Aluminium,Can End Stock (coil)
+B029110,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B029110,Direct Materials,Aluminium,Can Body Stock (coil)
+B029123,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B029123,Direct Materials,Aluminium,Ingot & Metal Premium
+B029127,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B029127,Direct Materials,Aluminium,Can Body Stock (coil)
+B029239,Indirect Materials,MRO,Mechanical Spare Parts,0.2728,LABEL_MATCH,B029239,Indirect Materials,MRO,Mechanical Spare Parts
+B029281,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B029281,Direct Materials,Aluminium,Ingot & Metal Premium
+B029408,Direct Materials,Coatings & Inks,Inks & Varnishes,0.558,LABEL_MATCH,B029408,Direct Materials,Coatings & Inks,Inks & Varnishes
+B029498,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B029498,Direct Materials,Aluminium,Ingot & Metal Premium
+B029783,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B029783,Direct Materials,Aluminium,Ingot & Metal Premium
+B029834,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B029834,Direct Materials,Aluminium,Ingot & Metal Premium
+B029837,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B029837,Direct Materials,Aluminium,Can Body Stock (coil)
+B029860,Logistics,Freight,Road & Sea Freight,1.0,LABEL_MATCH,B029860,Logistics,Freight,Road & Sea Freight
+B030032,Indirect Materials,MRO,Electrical & Automation Parts,0.3366,LABEL_MATCH,B030032,Indirect Materials,MRO,Electrical & Automation Parts
+B030139,Packaging Materials,Pallets & Load Units,Pallets,0.3181,LABEL_MATCH,B030139,Packaging Materials,Pallets & Load Units,Pallets
+B030214,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B030214,Direct Materials,Aluminium,Ingot & Metal Premium
+B030505,Indirect Materials,MRO,Mechanical Spare Parts,0.3065,LABEL_MATCH,B030505,Indirect Materials,MRO,Mechanical Spare Parts
+B030579,Indirect Materials,MRO,Filters,0.7014,LABEL_MATCH,B030579,Indirect Materials,MRO,Filters
+B030580,Logistics,Freight,Road & Sea Freight,0.8784,LABEL_MATCH,B030580,Logistics,Freight,Road & Sea Freight
+B030624,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B030624,Direct Materials,Aluminium,Ingot & Metal Premium
+B030661,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B030661,Direct Materials,Aluminium,Ingot & Metal Premium
+B030670,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B030670,Direct Materials,Aluminium,Can Body Stock (coil)
+B030823,Indirect Materials,MRO,Lubricants & Oils,0.4073,LABEL_MATCH,B030823,Indirect Materials,MRO,Lubricants & Oils
+B031077,Direct Materials,Coatings & Inks,Internal Coatings & Compounds,0.7875,LABEL_MATCH,B031077,Indirect Materials,MRO,Mechanical Spare Parts
+B031177,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031177,Direct Materials,Aluminium,Ingot & Metal Premium
+B031201,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031201,Direct Materials,Aluminium,Ingot & Metal Premium
+B031229,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031229,Direct Materials,Aluminium,Ingot & Metal Premium
+B031255,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031255,Direct Materials,Aluminium,Ingot & Metal Premium
+B031266,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031266,Direct Materials,Aluminium,Ingot & Metal Premium
+B031281,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031281,Direct Materials,Aluminium,Ingot & Metal Premium
+B031286,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031286,Direct Materials,Aluminium,Ingot & Metal Premium
+B031300,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031300,Direct Materials,Aluminium,Ingot & Metal Premium
+B031314,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031314,Direct Materials,Aluminium,Ingot & Metal Premium
+B031316,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031316,Direct Materials,Aluminium,Ingot & Metal Premium
+B031327,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031327,Direct Materials,Aluminium,Ingot & Metal Premium
+B031338,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B031338,Direct Materials,Aluminium,Ingot & Metal Premium
+B031360,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B031360,Direct Materials,Aluminium,Can End Stock (coil)
+B031363,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B031363,Direct Materials,Aluminium,Can End Stock (coil)
+B031449,Indirect Materials,MRO,Mechanical Spare Parts,0.3773,LABEL_MATCH,B031449,Indirect Materials,MRO,Mechanical Spare Parts
+B031461,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B031461,Direct Materials,Aluminium,Can Body Stock (coil)
+B031589,Indirect Materials,MRO,Tools & Shop Consumables,0.3505,LABEL_MATCH,B031589,Indirect Materials,MRO,Tools & Shop Consumables
+B031953,Facilities,Maintenance Services,Repair & Maintenance Services,0.2924,LABEL_MATCH,B031953,HR & Employee,Canteen,Canteen & Catering
+B031974,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B031974,Direct Materials,Aluminium,Can End Stock (coil)
+B032178,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B032178,Direct Materials,Aluminium,Can Body Stock (coil)
+B032296,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B032296,Direct Materials,Aluminium,Ingot & Metal Premium
+B032403,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B032403,Direct Materials,Aluminium,Ingot & Metal Premium
+B032431,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B032431,Direct Materials,Aluminium,Ingot & Metal Premium
+B032520,Logistics,Freight,Road & Sea Freight,1.0,LABEL_MATCH,B032520,Logistics,Freight,Road & Sea Freight
+B032902,Direct Materials,Aluminium,Tab Stock (coil),1.0,LABEL_MATCH,B032902,Direct Materials,Aluminium,Tab Stock (coil)
+B032911,Direct Materials,Aluminium,Tab Stock (coil),1.0,LABEL_MATCH,B032911,Direct Materials,Aluminium,Tab Stock (coil)
+B033127,Indirect Materials,MRO,Mechanical Spare Parts,0.5787,LABEL_MATCH,B033127,Indirect Materials,MRO,Mechanical Spare Parts
+B033500,Indirect Materials,MRO,Mechanical Spare Parts,0.4078,LABEL_MATCH,B033500,Indirect Materials,MRO,Mechanical Spare Parts
+B033531,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B033531,Direct Materials,Aluminium,Can Body Stock (coil)
+B033555,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B033555,Direct Materials,Aluminium,Can Body Stock (coil)
+B033603,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B033603,Direct Materials,Aluminium,Can Body Stock (coil)
+B033609,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B033609,Direct Materials,Aluminium,Can Body Stock (coil)
+B033653,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B033653,Direct Materials,Aluminium,Can Body Stock (coil)
+B033669,Indirect Materials,MRO,Mechanical Spare Parts,0.6969,LABEL_MATCH,B033669,Indirect Materials,MRO,Mechanical Spare Parts
+B033774,Direct Materials,Aluminium,Ingot & Metal Premium,0.7827,LABEL_MATCH,B033774,Direct Materials,Aluminium,Ingot & Metal Premium
+B033776,Direct Materials,Aluminium,Can Body Stock (coil),0.2754,LABEL_MATCH,B033776,Indirect Materials,MRO,Mechanical Spare Parts
+B033779,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B033779,Direct Materials,Aluminium,Can Body Stock (coil)
+B034094,Facilities,Maintenance Services,Repair & Maintenance Services,0.3734,LABEL_MATCH,B034094,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings"
+B034249,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B034249,Direct Materials,Aluminium,Ingot & Metal Premium
+B034290,Facilities,Maintenance Services,Repair & Maintenance Services,0.2111,LABEL_MATCH,B034290,Indirect Materials,MRO,Electrical & Automation Parts
+B034543,Facilities,Facility Services,Cleaning,0.4932,LABEL_MATCH,B034543,Utilities,Energy,Gas & Propane
+B034757,Indirect Materials,MRO,Mechanical Spare Parts,0.5029,LABEL_MATCH,B034757,Indirect Materials,MRO,Mechanical Spare Parts
+B034764,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B034764,Direct Materials,Aluminium,Can End Stock (coil)
+B034882,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B034882,Direct Materials,Aluminium,Ingot & Metal Premium
+B034973,Direct Materials,Aluminium,Ingot & Metal Premium,1.0,LABEL_MATCH,B034973,Direct Materials,Aluminium,Ingot & Metal Premium
+B035396,Direct Materials,Aluminium,Can End Stock (coil),1.0,LABEL_MATCH,B035396,Direct Materials,Aluminium,Can End Stock (coil)
+B035402,Indirect Materials,MRO,Mechanical Spare Parts,0.444,LABEL_MATCH,B035402,Indirect Materials,MRO,Mechanical Spare Parts
+B035972,Direct Materials,Aluminium,Can Body Stock (coil),1.0,LABEL_MATCH,B035972,Direct Materials,Aluminium,Can Body Stock (coil)

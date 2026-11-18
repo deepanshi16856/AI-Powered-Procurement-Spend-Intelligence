@@ -1,0 +1,674 @@
+
+======================================================================
+DATASET: Company A - ERP
+======================================================================
+File: data/company_a/erp_goods_receipts.csv
+Total rows: 37,029
+Total columns: 26
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  line_id: str
+  source_system: str
+  spend_type: str
+  po_number: int64
+  po_item: float64
+  receipt_document: int64
+  receipt_item: float64
+  posting_date: str
+  material_number: str
+  material_short_text: str
+  service_short_text: str
+  material_type: str
+  quantity: float64
+  uom: str
+  po_uom: str
+  value_zar: float64
+  unit_cost_zar: float64
+  document_currency: str
+  vendor_id: str
+  supplier_name: str
+  site_code: str
+  site_name: str
+  cost_centre: str
+  opex_capex: str
+  contract_status: str
+  contract_number: str
+
+MISSING VALUES:
+  service_short_text: 36,442 (98.41%)
+  cost_centre: 31,756 (85.76%)
+  uom: 24,370 (65.81%)
+  posting_date: 24,370 (65.81%)
+  site_code: 24,370 (65.81%)
+  vendor_id: 24,370 (65.81%)
+  unit_cost_zar: 24,370 (65.81%)
+  po_uom: 24,370 (65.81%)
+  material_type: 19,070 (51.50%)
+  material_number: 15,816 (42.71%)
+  document_currency: 15,816 (42.71%)
+  contract_number: 14,107 (38.10%)
+
+UNIQUE VALUES:
+  line_id: 37,029
+  source_system: 4
+  spend_type: 4
+  po_number: 20,670
+  po_item: 74
+  receipt_document: 31,522
+  receipt_item: 64
+  posting_date: 886
+  material_number: 3,139
+  material_short_text: 4,336
+  service_short_text: 209
+  material_type: 9
+  quantity: 3,313
+  uom: 28
+  po_uom: 27
+  value_zar: 22,740
+  unit_cost_zar: 2,389
+  document_currency: 4
+  vendor_id: 93
+  supplier_name: 193
+  site_code: 29
+  site_name: 52
+  cost_centre: 318
+  opex_capex: 2
+  contract_status: 2
+  contract_number: 123
+
+TOP VALUES IN spend_type:
+  Material: 17,959
+  Service: 11,232
+  Free Text: 5,551
+  Catalogue: 2,287
+
+TOP VALUES IN source_system:
+  ERP-A1: 36,908
+  ERP-A2: 107
+  ERP-A3: 9
+  ERP-A4: 5
+
+DATE CHECK: posting_date
+  Non-empty values: 12,659
+  Successfully parsed: 12,659
+  Unparsed non-empty values: 0
+  Examples: ['2021-06-28', '2021-06-28', '2021-06-28', '2021-06-28', '2021-06-28']
+
+FIRST 3 RECORDS:
+line_id source_system spend_type  po_number  po_item  receipt_document  receipt_item posting_date material_number                     material_short_text service_short_text          material_type  quantity uom po_uom  value_zar  unit_cost_zar document_currency vendor_id    supplier_name site_code site_name cost_centre opex_capex contract_status contract_number
+A000002        ERP-A1   Material 4510000018     10.0        5010000009           1.0   2021-06-28        M1000001 FAN ELEC;22KW,YARVEX FLW,DIA 760MM,FLNG                NaN Refurbishment Material       1.0  EA     EA  104243.40      104243.40               ZAR   V200009           YARVEX      P113   Site 01         NaN       Opex     On Contract        CW100003
+A000003        ERP-A1   Material 4510000018     10.0        5010000013           1.0   2021-06-28        M1000001 FAN ELEC;22KW,YARVEX FLW,DIA 760MM,FLNG                NaN Refurbishment Material       1.0  EA     EA  104243.40      104243.40               ZAR   V200009           YARVEX      P113   Site 01         NaN       Opex     On Contract        CW100003
+A000004        ERP-A1   Material 4510000026     10.0        5010000022           1.0   2021-06-28        M1000005     ROD DRIL;SIZE 35 MM; LN1200 MM,AUGR                NaN    Non-stock materials      15.0  EA     EA   20269.26        1351.28               ZAR   V200018 DUNTON (PTY) LTD      P113   Site 01     CC10007       Opex    Non Contract             NaN
+
+======================================================================
+DATASET: Company A - Invoice Tool
+======================================================================
+File: data/company_a/invoice_tool_export.csv
+Total rows: 28,520
+Total columns: 11
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  tool_record_id: str
+  invoice_number: str
+  invoice_date: str
+  supplier_name_as_captured: str
+  po_reference: str
+  line_text: str
+  quantity: float64
+  gross_amount: str
+  vat_rate: str
+  currency: str
+  status: str
+
+MISSING VALUES:
+  invoice_date: 18,660 (65.43%)
+  vat_rate: 6,542 (22.94%)
+  po_reference: 5,199 (18.23%)
+
+UNIQUE VALUES:
+  tool_record_id: 28,520
+  invoice_number: 17,222
+  invoice_date: 3,136
+  supplier_name_as_captured: 702
+  po_reference: 18,327
+  line_text: 11,180
+  quantity: 2,848
+  gross_amount: 20,961
+  vat_rate: 4
+  currency: 1
+  status: 5
+
+TOP VALUES IN status:
+  Paid: 19,837
+  Approved: 8,180
+  Cancelled: 188
+  On Hold: 172
+  Rejected: 143
+
+TOP VALUES IN currency:
+  ZAR: 28,520
+
+DATE CHECK: invoice_date
+  Non-empty values: 9,860
+  Successfully parsed: 9,860
+  Unparsed non-empty values: 0
+  Examples: ['27-Mar-24', '04/06/2023', '01/01/2024', '23-Jun-24', '15-Nov-23']
+
+FIRST 3 RECORDS:
+tool_record_id  invoice_number invoice_date  supplier_name_as_captured    po_reference                   line_text  quantity gross_amount vat_rate currency status
+      TA020125 INV/2023/759857          NaN OAKENT MINING SA (PTY) LTD 4510085877/10.0      VALVE;P/N:A2U90-694075       2.0      8721.47     0.15      ZAR   Paid
+      TA025902          817386          NaN LORDEN SOLUTIONS (PTY) LTD   PO 4510109330  INST,SPRT;NT,MNTN ARTSN,UG      20.0     44548.38      NaN      ZAR   Paid
+      TA008517       IN0914136    27-Mar-24            ASHAX (PTY) LTD             NaN DISC VLV;DLVY,RUBR,SZ:NO, 4       7.0     5,266.63      15%      ZAR   Paid
+
+======================================================================
+DATASET: Company A - Labels
+======================================================================
+File: data/company_a/labels_A.csv
+Total rows: 37,029
+Total columns: 6
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  record_id: str
+  category_l1: str
+  category_l2: str
+  category_l3: str
+  supplier_key: str
+  item_key: str
+
+MISSING VALUES:
+  item_key: 15,816 (42.71%)
+
+UNIQUE VALUES:
+  record_id: 37,029
+  category_l1: 5
+  category_l2: 24
+  category_l3: 40
+  supplier_key: 70
+  item_key: 2,426
+
+TOP VALUES IN category_l1:
+  Mining Operating Materials: 13,166
+  Underground Production Equipment: 8,634
+  Underground Services: 6,350
+  Flameproof Diesel Equipment: 5,782
+  Mining Support Equipment and Consumables: 3,097
+
+TOP VALUES IN category_l2:
+  Continuous Miners: 5,137
+  Roof Support: 4,047
+  Flameproof Load Haul Dumper: 3,014
+  Road Maintenance Material: 2,342
+  Shuttle Cars: 2,210
+  Conveyors and Stone Dust Barrier Services: 2,010
+  Flameproof Tractors and Multipurpose Vehicles: 2,009
+  Roof Bolts: 1,965
+  Roof Support Services: 1,890
+  Mining Ventilation and Hoists: 1,703
+
+TOP VALUES IN category_l3:
+  Flameproof Load Haul Dumper: 3,014
+  Continuous Miners: 2,546
+  Road Maintenance Material: 2,342
+  Conveyors and Stone Dust Barrier Services: 2,010
+  Flameproof Tractors and Multipurpose Vehicles: 2,009
+  Roof Support Accessories: 2,000
+  Roof Bolts: 1,965
+  Roof Support Services: 1,845
+  CM Maintenance Spares: 1,829
+  Mining Ventilation and Hoists: 1,703
+
+FIRST 3 RECORDS:
+  record_id                              category_l1                   category_l2                   category_l3 supplier_key   item_key
+ERP:A000002 Mining Support Equipment and Consumables Mining Ventilation and Hoists Mining Ventilation and Hoists    SG-fa42a5 IG-ac5b279
+ERP:A000003 Mining Support Equipment and Consumables Mining Ventilation and Hoists Mining Ventilation and Hoists    SG-fa42a5 IG-ac5b279
+ERP:A000004               Mining Operating Materials                  Roof Support      Roof Support Accessories    SG-19d864 IG-73d1bcb
+
+======================================================================
+DATASET: Company A - Taxonomy
+======================================================================
+File: data/company_a/taxonomy_A.csv
+Total rows: 40
+Total columns: 3
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  category_l1: str
+  category_l2: str
+  category_l3: str
+
+MISSING VALUES:
+  No missing values.
+
+UNIQUE VALUES:
+  category_l1: 5
+  category_l2: 24
+  category_l3: 40
+
+TOP VALUES IN category_l1:
+  Underground Production Equipment: 14
+  Mining Operating Materials: 10
+  Underground Services: 9
+  Flameproof Diesel Equipment: 5
+  Mining Support Equipment and Consumables: 2
+
+TOP VALUES IN category_l2:
+  Continuous Miners: 8
+  Roof Support: 3
+  Shuttle Cars: 3
+  Flameproof Diesel Equipment Maintenance: 2
+  Roof Bolters: 2
+  Roof Support Services: 2
+  Underground Explosive and Water Seals: 2
+  Ventilation Structure Services: 2
+  Flameproof Load Haul Dumper: 1
+  Flameproof Tractor Trailers: 1
+
+TOP VALUES IN category_l3:
+  Flameproof Diesel Equipment Engines: 1
+  Flameproof Diesel Equipment Starters: 1
+  Flameproof Load Haul Dumper: 1
+  Flameproof Tractor Trailers: 1
+  Flameproof Tractors and Multipurpose Vehicles: 1
+  Mining Explosives: 1
+  Picks and Sleeves: 1
+  Road Maintenance Material: 1
+  Roof Bolts: 1
+  Roof Support Accessories: 1
+
+FIRST 3 RECORDS:
+                category_l1                             category_l2                          category_l3
+Flameproof Diesel Equipment Flameproof Diesel Equipment Maintenance  Flameproof Diesel Equipment Engines
+Flameproof Diesel Equipment Flameproof Diesel Equipment Maintenance Flameproof Diesel Equipment Starters
+Flameproof Diesel Equipment             Flameproof Load Haul Dumper          Flameproof Load Haul Dumper
+
+======================================================================
+DATASET: Company B - Invoices
+======================================================================
+File: data/company_b/invoice_lines.csv
+Total rows: 41,028
+Total columns: 28
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  line_id: str
+  source_system: str
+  region: str
+  invoice_number: str
+  invoice_line: int64
+  posting_date: str
+  invoice_date: str
+  due_date: str
+  paid_date: str
+  line_description: str
+  material_number: str
+  quantity: float64
+  currency: str
+  currency_rate: float64
+  line_amount: float64
+  cost_centre: str
+  gl_account: str
+  gl_account_description: str
+  vendor_id: str
+  supplier_type: str
+  document_type: str
+  po_number: str
+  po_line: float64
+  po_type: str
+  plant: str
+  company_code: str
+  payment_terms: str
+  transport_flag: float64
+
+MISSING VALUES:
+  transport_flag: 21,525 (52.46%)
+  supplier_type: 21,525 (52.46%)
+  currency_rate: 20,023 (48.80%)
+  cost_centre: 14,787 (36.04%)
+  material_number: 10,574 (25.77%)
+  paid_date: 10,322 (25.16%)
+  line_description: 6,857 (16.71%)
+  po_number: 3,620 (8.82%)
+  po_type: 3,620 (8.82%)
+  payment_terms: 27 (0.07%)
+  gl_account_description: 10 (0.02%)
+  line_amount: 3 (0.01%)
+
+UNIQUE VALUES:
+  line_id: 41,028
+  source_system: 8
+  region: 8
+  invoice_number: 17,319
+  invoice_line: 412
+  posting_date: 365
+  invoice_date: 590
+  due_date: 736
+  paid_date: 318
+  line_description: 12,448
+  material_number: 6,638
+  quantity: 7,264
+  currency: 25
+  currency_rate: 1,598
+  line_amount: 23,658
+  cost_centre: 804
+  gl_account: 52
+  gl_account_description: 69
+  vendor_id: 3,995
+  supplier_type: 120
+  document_type: 17
+  po_number: 12,019
+  po_line: 740
+  po_type: 10
+  plant: 343
+  company_code: 70
+  payment_terms: 205
+  transport_flag: 2
+
+TOP VALUES IN source_system:
+  ERP-B4 (JDE): 11,000
+  ERP-B7 (SAP): 11,000
+  ERP-B8 (SAP): 5,003
+  ERP-B3 (JDE): 4,000
+  ERP-B6 (SAP): 3,500
+  ERP-B2 (JDE): 3,000
+  ERP-B1 (JDE): 2,025
+  ERP-B5 (JDE): 1,500
+
+TOP VALUES IN currency:
+  USD: 17,959
+  EUR: 7,283
+  BRL: 2,968
+  GBP: 2,447
+  CAD: 1,830
+  MXN: 1,596
+  MMK: 1,077
+  ARS: 922
+  RSD: 807
+  TRY: 731
+
+TOP VALUES IN document_type:
+  PV: 21,138
+  RE: 18,824
+  CA: 253
+  Z6: 169
+  PD: 130
+  Z7: 96
+  PM: 88
+  PL: 77
+  PR: 58
+  AB: 47
+
+TOP VALUES IN supplier_type:
+  nan: 21,525
+  4001: 7,373
+   : 3,159
+  1001: 2,022
+  7301: 1,322
+  5406: 499
+  0000: 361
+  2742: 324
+  7002: 308
+  5405: 246
+
+TOP VALUES IN gl_account_description:
+  AP - Other: 11,222
+  PEUS: 7,349
+  AP - Metal: 2,160
+  TRADE PAYABLE NATIONAL: 1,973
+  AP - Freight: 1,959
+  P105: 1,944
+  PECA: 1,815
+  P106: 1,720
+  PEMU: 1,350
+  P2MX: 1,330
+
+DATE CHECK: posting_date
+  Non-empty values: 41,028
+  Successfully parsed: 41,028
+  Unparsed non-empty values: 0
+  Examples: ['2024-03-29', '2024-03-29', '2024-11-11', '2024-01-15', '2024-03-29']
+
+DATE CHECK: invoice_date
+  Non-empty values: 41,028
+  Successfully parsed: 41,028
+  Unparsed non-empty values: 0
+  Examples: ['2018-07-23', '2018-07-23', '2023-06-27', '2023-08-01', '2023-09-26']
+
+DATE CHECK: due_date
+  Non-empty values: 41,028
+  Successfully parsed: 41,028
+  Unparsed non-empty values: 0
+  Examples: ['2024-03-29', '2024-03-27', '2024-11-11', '2023-08-01', '2023-10-26']
+
+DATE CHECK: paid_date
+  Non-empty values: 30,706
+  Successfully parsed: 30,706
+  Unparsed non-empty values: 0
+  Examples: ['2024-11-05', '2024-01-17', '2024-03-29', '2024-02-05', '2024-02-27']
+
+FIRST 3 RECORDS:
+line_id source_system region invoice_number  invoice_line posting_date invoice_date   due_date  paid_date line_description material_number  quantity currency  currency_rate  line_amount cost_centre gl_account gl_account_description vendor_id supplier_type document_type po_number  po_line po_type  plant company_code payment_terms  transport_flag
+B000001  ERP-B1 (JDE)     R1  B-INV-1000001             1   2024-03-29   2018-07-23 2024-03-29        NaN              NaN     MAT-1000007       0.0      USD            NaN    -13827.64     CC20001    GL40007                   BLCN   V500009           NaN            PD       NaN      0.0     NaN PL1001        CO102           NaN             NaN
+B000002  ERP-B1 (JDE)     R1  B-INV-1000001             1   2024-03-29   2018-07-23 2024-03-27        NaN              NaN     MAT-1000007       0.0      USD            NaN     13827.64     CC20001    GL40007                   BLCN   V500009           NaN            PD       NaN      0.0     NaN PL1001        CO102           NaN             NaN
+B000003  ERP-B1 (JDE)     R1  B-INV-1000007             1   2024-11-11   2023-06-27 2024-11-11 2024-11-05              NaN     MAT-1000007       0.0      USD            NaN     -2611.52     CC20001    GL40007                   BLCN   V500009           NaN            PD       NaN      0.0     NaN PL1001        CO102           NaN             NaN
+
+======================================================================
+DATASET: Company B - FX Rates
+======================================================================
+File: data/company_b/fx_rates_usd.csv
+Total rows: 683
+Total columns: 3
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  currency: str
+  month: str
+  units_per_usd: float64
+
+MISSING VALUES:
+  No missing values.
+
+UNIQUE VALUES:
+  currency: 30
+  month: 29
+  units_per_usd: 353
+
+TOP VALUES IN currency:
+  AUD: 29
+  CAD: 29
+  CNY: 29
+  HKD: 29
+  JPY: 29
+  MMK: 29
+  RCN: 29
+  SGD: 29
+  THB: 29
+  USD: 29
+
+FIRST 3 RECORDS:
+currency   month  units_per_usd
+     AED 2024-01        3.67300
+     AED 2024-03        3.67258
+     AED 2024-04        3.67218
+
+======================================================================
+DATASET: Company B - Seed Labels
+======================================================================
+File: data/company_b/seed_labels.csv
+Total rows: 3,000
+Total columns: 6
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  line_id: str
+  include: int64
+  exclusion_reason: str
+  category_l1: str
+  category_l2: str
+  category_l3: str
+
+MISSING VALUES:
+  exclusion_reason: 2,550 (85.00%)
+  category_l1: 450 (15.00%)
+  category_l2: 450 (15.00%)
+  category_l3: 450 (15.00%)
+
+UNIQUE VALUES:
+  line_id: 3,000
+  include: 2
+  exclusion_reason: 1
+  category_l1: 9
+  category_l2: 24
+  category_l3: 39
+
+TOP VALUES IN category_l1:
+  Direct Materials: 1,400
+  Indirect Materials: 702
+  nan: 450
+  Logistics: 131
+  Facilities: 119
+  Packaging Materials: 67
+  Professional Services: 62
+  IT & Telecom: 46
+  HR & Employee: 15
+  Utilities: 8
+
+TOP VALUES IN category_l2:
+  Aluminium: 1,342
+  MRO: 679
+  nan: 450
+  Freight: 123
+  Facility Services: 54
+  Pallets & Load Units: 53
+  Maintenance Services: 48
+  Coatings & Inks: 37
+  Consulting & Contractors: 37
+  Audit, Legal & Advisory: 24
+
+TOP VALUES IN category_l3:
+  Can Body Stock (coil): 878
+  nan: 450
+  Mechanical Spare Parts: 378
+  Ingot & Metal Premium: 311
+  Electrical & Automation Parts: 124
+  Tools & Shop Consumables: 85
+  Can End Stock (coil): 78
+  Tab Stock (coil): 75
+  Road & Sea Freight: 68
+  Courier & Postage: 55
+
+FIRST 3 RECORDS:
+line_id  include exclusion_reason        category_l1     category_l2                   category_l3
+B000007        1              NaN   Direct Materials Coatings & Inks              Inks & Varnishes
+B000017        1              NaN Indirect Materials             MRO Electrical & Automation Parts
+B000188        1              NaN Indirect Materials             MRO             Lubricants & Oils
+
+======================================================================
+DATASET: Company B - Taxonomy
+======================================================================
+File: data/company_b/taxonomy_B.csv
+Total rows: 40
+Total columns: 3
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  category_l1: str
+  category_l2: str
+  category_l3: str
+
+MISSING VALUES:
+  No missing values.
+
+UNIQUE VALUES:
+  category_l1: 9
+  category_l2: 25
+  category_l3: 40
+
+TOP VALUES IN category_l1:
+  Indirect Materials: 8
+  Direct Materials: 7
+  Facilities: 6
+  HR & Employee: 4
+  Packaging Materials: 3
+  Logistics: 3
+  Utilities: 3
+  IT & Telecom: 3
+  Professional Services: 3
+
+TOP VALUES IN category_l2:
+  MRO: 6
+  Aluminium: 4
+  Facility Services: 3
+  Coatings & Inks: 2
+  Pallets & Load Units: 2
+  Freight: 2
+  Energy: 2
+  Safety: 2
+  Ends & Closures: 1
+  Wrapping & Strapping: 1
+
+TOP VALUES IN category_l3:
+  Ingot & Metal Premium: 1
+  Can Body Stock (coil): 1
+  Can End Stock (coil): 1
+  Tab Stock (coil): 1
+  Internal Coatings & Compounds: 1
+  Inks & Varnishes: 1
+  Can Ends: 1
+  Pallets: 1
+  Top Frames & Layer Pads: 1
+  Film, Strapping & Corner Boards: 1
+
+FIRST 3 RECORDS:
+     category_l1 category_l2           category_l3
+Direct Materials   Aluminium Ingot & Metal Premium
+Direct Materials   Aluminium Can Body Stock (coil)
+Direct Materials   Aluminium  Can End Stock (coil)
+
+======================================================================
+DATASET: Output Template
+======================================================================
+File: data/output_template.csv
+Total rows: 2
+Total columns: 11
+Duplicate complete rows: 0
+
+COLUMN NAMES AND DATA TYPES:
+  record_id: str
+  include: int64
+  exclusion_reason: str
+  supplier_key: str
+  item_key: str
+  spend: float64
+  l1: str
+  l2: str
+  l3: str
+  l4: float64
+  confidence: float64
+
+MISSING VALUES:
+  l4: 2 (100.00%)
+  exclusion_reason: 1 (50.00%)
+  l1: 1 (50.00%)
+  l2: 1 (50.00%)
+  l3: 1 (50.00%)
+
+UNIQUE VALUES:
+  record_id: 2
+  include: 2
+  exclusion_reason: 1
+  supplier_key: 1
+  item_key: 1
+  spend: 2
+  l1: 1
+  l2: 1
+  l3: 1
+  l4: 0
+  confidence: 2
+
+FIRST 3 RECORDS:
+    record_id  include exclusion_reason     supplier_key       item_key   spend          l1          l2          l3  l4  confidence
+  ERP:A000001        1              NaN acme engineering valve-2in-ball 1234.56 Category L1 Category L2 Category L3 NaN        0.82
+TOOL:TA000001        0        DUPLICATE acme engineering valve-2in-ball    0.00         NaN         NaN         NaN NaN        0.95

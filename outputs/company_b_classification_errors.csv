@@ -1,0 +1,53 @@
+line_id,include,exclusion_reason,category_l1,category_l2,category_l3,predicted_l1,predicted_l2,predicted_l3,confidence,classification_method
+B031953,1,,HR & Employee,Canteen,Canteen & Catering,Facilities,Maintenance Services,Repair & Maintenance Services,0.3272,LABEL_MATCH
+B005944,1,,Indirect Materials,MRO,Filters,Indirect Materials,MRO,Mechanical Spare Parts,0.4922,LABEL_MATCH
+B019284,1,,Indirect Materials,MRO,Tools & Shop Consumables,Indirect Materials,MRO,Mechanical Spare Parts,0.3393,LABEL_MATCH
+B013490,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Mechanical Spare Parts,0.2978,LABEL_MATCH
+B030139,1,,Packaging Materials,Pallets & Load Units,Pallets,Indirect Materials,MRO,Filters,0.3419,LABEL_MATCH
+B034543,1,,Utilities,Energy,Gas & Propane,Facilities,Facility Services,Cleaning,0.5169,LABEL_MATCH
+B015952,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Mechanical Spare Parts,0.4333,LABEL_MATCH
+B030032,1,,Indirect Materials,MRO,Electrical & Automation Parts,Direct Materials,Coatings & Inks,Inks & Varnishes,0.3017,LABEL_MATCH
+B003203,1,,Indirect Materials,MRO,Mechanical Spare Parts,Logistics,Freight,Road & Sea Freight,0.3781,LABEL_MATCH
+B031589,1,,Indirect Materials,MRO,Tools & Shop Consumables,Indirect Materials,MRO,Filters,0.3773,LABEL_MATCH
+B002650,1,,Professional Services,Consulting & Contractors,Consulting & IT Contractors,Logistics,Freight,Courier & Postage,0.5902,LABEL_MATCH
+B006347,1,,Indirect Materials,MRO,Electrical & Automation Parts,Direct Materials,Coatings & Inks,Inks & Varnishes,0.3088,LABEL_MATCH
+B018709,1,,Facilities,Facility Services,Cleaning,Facilities,Maintenance Services,Repair & Maintenance Services,0.5573,LABEL_MATCH
+B004734,1,,IT & Telecom,Telecom,Voice & Data,IT & Telecom,IT Hardware,End-user & Network Hardware,0.4443,LABEL_MATCH
+B019479,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Mechanical Spare Parts,0.344,LABEL_MATCH
+B034094,1,,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings",Facilities,Maintenance Services,Repair & Maintenance Services,0.3163,LABEL_MATCH
+B016220,1,,Utilities,Energy,Gas & Propane,Indirect Materials,MRO,Mechanical Spare Parts,0.3863,LABEL_MATCH
+B034290,1,,Indirect Materials,MRO,Electrical & Automation Parts,Direct Materials,Aluminium,Can Body Stock (coil),0.2788,LABEL_MATCH
+B015471,1,,Indirect Materials,MRO,Lubricants & Oils,Indirect Materials,Safety,PPE & First Aid,0.3559,LABEL_MATCH
+B033500,1,,Indirect Materials,MRO,Mechanical Spare Parts,Direct Materials,Coatings & Inks,Inks & Varnishes,0.3429,LABEL_MATCH
+B006109,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Mechanical Spare Parts,0.2414,LABEL_MATCH
+B033776,1,,Indirect Materials,MRO,Mechanical Spare Parts,Direct Materials,Aluminium,Can Body Stock (coil),0.3549,LABEL_MATCH
+B017304,1,,Indirect Materials,MRO,Tools & Shop Consumables,Indirect Materials,MRO,Mechanical Spare Parts,0.4636,LABEL_MATCH
+B031077,1,,Indirect Materials,MRO,Mechanical Spare Parts,Direct Materials,Coatings & Inks,Internal Coatings & Compounds,0.7083,LABEL_MATCH
+B017951,1,,Indirect Materials,MRO,Lubricants & Oils,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings",0.3606,LABEL_MATCH
+B002818,1,,Indirect Materials,MRO,Mechanical Spare Parts,Facilities,Maintenance Services,Repair & Maintenance Services,0.3877,LABEL_MATCH
+B010509,1,,Indirect Materials,MRO,Tools & Shop Consumables,Indirect Materials,MRO,Mechanical Spare Parts,0.3748,LABEL_MATCH
+B019124,1,,IT & Telecom,IT Hardware,End-user & Network Hardware,Logistics,Freight,Road & Sea Freight,0.3469,LABEL_MATCH
+B008709,1,,Indirect Materials,MRO,Lubricants & Oils,Logistics,Customs & Brokerage,Customs Clearance & Duties,0.5679,LABEL_MATCH
+B032611,1,,Indirect Materials,MRO,Lubricants & Oils,Facilities,Facility Services,Equipment & Site Rental,0.3494,LABEL_MATCH
+B032162,1,,Indirect Materials,MRO,Mechanical Spare Parts,Direct Materials,Coatings & Inks,Inks & Varnishes,0.3931,LABEL_MATCH
+B026917,1,,Indirect Materials,MRO,Mechanical Spare Parts,Indirect Materials,MRO,Filters,0.4089,LABEL_MATCH
+B016283,1,,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings",Direct Materials,Aluminium,Can Body Stock (coil),0.3662,LABEL_MATCH
+B009760,1,,Indirect Materials,MRO,Mechanical Spare Parts,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings",0.3372,LABEL_MATCH
+B002262,1,,Packaging Materials,Wrapping & Strapping,"Film, Strapping & Corner Boards",Logistics,Freight,Road & Sea Freight,0.4918,LABEL_MATCH
+B019125,1,,Indirect Materials,MRO,Mechanical Spare Parts,Indirect Materials,Safety,PPE & First Aid,0.5242,LABEL_MATCH
+B007836,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Mechanical Spare Parts,0.3955,LABEL_MATCH
+B035994,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Filters,0.3458,LABEL_MATCH
+B017571,1,,Indirect Materials,MRO,Tools & Shop Consumables,Facilities,Facility Services,Equipment & Site Rental,0.4823,LABEL_MATCH
+B029870,1,,Indirect Materials,MRO,Mechanical Spare Parts,Indirect Materials,MRO,Lubricants & Oils,0.417,LABEL_MATCH
+B029845,1,,Indirect Materials,MRO,Electrical & Automation Parts,Indirect Materials,MRO,Lubricants & Oils,0.3583,LABEL_MATCH
+B013840,1,,Indirect Materials,MRO,Tools & Shop Consumables,Indirect Materials,MRO,Electrical & Automation Parts,0.6237,LABEL_MATCH
+B018466,1,,Indirect Materials,MRO,Filters,Indirect Materials,MRO,Lubricants & Oils,0.5247,LABEL_MATCH
+B026949,1,,Indirect Materials,MRO,Mechanical Spare Parts,Facilities,Facility Services,Equipment & Site Rental,0.3024,LABEL_MATCH
+B013418,1,,Indirect Materials,MRO,Mechanical Spare Parts,Indirect Materials,MRO,"Hoses, Pneumatics & Fittings",0.3539,LABEL_MATCH
+B026976,1,,Indirect Materials,MRO,Mechanical Spare Parts,Direct Materials,Coatings & Inks,Inks & Varnishes,0.3471,LABEL_MATCH
+B030844,1,,Indirect Materials,MRO,Mechanical Spare Parts,Logistics,Freight,Road & Sea Freight,0.4482,LABEL_MATCH
+B002252,1,,Professional Services,Consulting & Contractors,Consulting & IT Contractors,Logistics,Freight,Road & Sea Freight,0.6572,LABEL_MATCH
+B026597,1,,Indirect Materials,MRO,Mechanical Spare Parts,Facilities,Facility Services,Equipment & Site Rental,0.5819,LABEL_MATCH
+B004556,1,,IT & Telecom,Telecom,Voice & Data,IT & Telecom,IT Hardware,End-user & Network Hardware,0.4443,LABEL_MATCH
+B011618,1,,Indirect Materials,MRO,Tools & Shop Consumables,Indirect Materials,Safety,PPE & First Aid,0.5188,LABEL_MATCH
+B017135,1,,Indirect Materials,MRO,Electrical & Automation Parts,Logistics,Freight,Road & Sea Freight,0.3712,LABEL_MATCH

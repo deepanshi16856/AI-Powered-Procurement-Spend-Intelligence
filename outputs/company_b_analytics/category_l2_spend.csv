@@ -1,0 +1,27 @@
+predicted_l1,predicted_l2,total_spend_usd,transaction_count,positive_spend_usd,negative_spend_usd
+Direct Materials,Aluminium,153236280.97,6309,155322874.6,-2086593.63
+Indirect Materials,MRO,65318426.07,18150,66631594.01,-1313167.94
+Logistics,Freight,51740065.19,7823,70441802.94,-18701737.75
+Direct Materials,Coatings & Inks,12709939.37,653,12710604.1,-664.73
+Facilities,Maintenance Services,6931715.53,476,6933300.42,-1584.89
+Indirect Materials,Safety,6643549.01,1366,6666261.87,-22712.86
+UNCLASSIFIED,UNCLASSIFIED,4602130.37,1098,4607810.17,-5679.8
+Professional Services,Consulting & Contractors,3851499.06,203,3851499.06,0.0
+IT & Telecom,Software,3744271.73,117,3746237.97,-1966.24
+IT & Telecom,IT Hardware,3132919.01,98,3136926.32,-4007.31
+Direct Materials,Ends & Closures,3096220.77,274,3103035.68,-6814.91
+Facilities,Environmental,2950109.88,141,2950523.93,-414.05
+Facilities,Facility Services,2458813.44,553,2470084.83,-11271.39
+Logistics,Customs & Brokerage,2214286.5,265,2214286.5,0.0
+Packaging Materials,Pallets & Load Units,1660550.14,493,1670789.16,-10239.02
+Professional Services,"Audit, Legal & Advisory",1570493.94,160,1570556.08,-62.14
+HR & Employee,Health & Benefits,589241.46,17,589241.46,0.0
+Utilities,Energy,421894.46,30,422295.42,-400.96
+HR & Employee,Travel,270172.5,41,270172.5,0.0
+HR & Employee,Training,267106.77,21,267175.47,-68.7
+Packaging Materials,Wrapping & Strapping,157353.43,79,157353.43,0.0
+IT & Telecom,Telecom,77892.13,75,77892.13,0.0
+Facilities,Office,38933.02,38,38933.02,0.0
+Professional Services,Labour,26904.56,7,26904.56,0.0
+HR & Employee,Canteen,17265.5,82,22808.85,-5543.35
+Utilities,Water,2539.65,5,2539.65,0.0

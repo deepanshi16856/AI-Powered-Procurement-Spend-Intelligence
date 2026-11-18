@@ -1,0 +1,36 @@
+
+company: company_a
+base_currency: ZAR
+
+sources:
+  - name: erp
+    file: data/company_a/erp_goods_receipts.csv
+    id_column: line_id
+    id_prefix: ERP
+    amount_column: value_zar
+    amount_type: net
+    currency_column: document_currency
+    supplier_id_column: vendor_id
+    supplier_name_column: supplier_name
+    item_id_column: material_number
+    item_description_column: material_short_text
+    secondary_description_column: service_short_text
+    date_column: posting_date
+
+  - name: invoice_tool
+    file: data/company_a/invoice_tool_export.csv
+    id_column: tool_record_id
+    id_prefix: TOOL
+    amount_column: gross_amount
+    amount_type: gross
+    vat_rate_column: vat_rate
+    default_vat_rate: 0.15
+    currency_column: currency
+    supplier_name_column: supplier_name_as_captured
+    item_description_column: line_text
+    date_column: invoice_date
+    status_column: status
+    po_reference_column: po_reference
+
+labels_file: data/company_a/labels_A.csv
+taxonomy_file: data/company_a/taxonomy_A.csv

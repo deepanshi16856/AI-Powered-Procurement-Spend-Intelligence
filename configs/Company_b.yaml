@@ -1,0 +1,56 @@
+
+company: company_b
+base_currency: USD
+
+sources:
+  - name: invoices
+    file: data/company_b/invoice_lines.csv
+    id_column: line_id
+    id_prefix: ERP
+    amount_column: line_amount
+    amount_type: net
+    currency_column: currency
+    date_column: posting_date
+    supplier_id_column: vendor_id
+    item_id_column: material_number
+    item_description_column: line_description
+    secondary_description_column: gl_account_description
+    document_type_column: document_type
+    gl_account_column: gl_account
+    po_reference_column: po_number
+
+fx_file: data/company_b/fx_rates_usd.csv
+fx_month_column: month
+fx_rate_column: units_per_usd
+
+labels_file: data/company_b/seed_labels.csv
+taxonomy_file: data/company_b/taxonomy_B.csv
+
+
+non_procurement_rules:
+  description_column: line_description
+  description_keywords:
+    - sales tax
+    - state & local taxes
+    - gst input tax
+
+  gl_description_column: gl_account_description
+  gl_description_exact:
+    - IC06
+    - IC05
+    - IC Payables
+    - I/C Payable
+    - IC67
+    - IC37
+    - IC22
+    - IC23
+    - IC52
+    - IC10
+    - IC45
+    - IC54
+    - IC70
+
+  gl_account_column: gl_account
+  gl_account_exact:
+    - GL40242
+    - GL40261

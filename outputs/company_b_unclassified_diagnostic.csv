@@ -1,0 +1,39 @@
+line_id,description,actual_similarity,closest_method,closest_l1,closest_l2,closest_l3
+B004432,IC23,0.0629,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B002851,IC37,0.0725,LABEL_MATCH,Direct Materials,Aluminium,Can Body Stock (coil)
+B004235,IC45,0.0865,LABEL_MATCH,Direct Materials,Aluminium,Can Body Stock (coil)
+B002518,IC10,0.0933,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B008153,IC67,0.0982,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B007259,REX MEN V8 APA 150ML TTN W2 68842307 IC67,0.1001,LABEL_MATCH,Direct Materials,Aluminium,Can Body Stock (coil)
+B028892,250 200AO EBEE 21 DO241796 I C PAYABLE,0.1195,LABEL_MATCH,Direct Materials,Aluminium,Can Body Stock (coil)
+B028931,250 200AO EBEE 21 DO241796 I C PAYABLE,0.1195,LABEL_MATCH,Direct Materials,Aluminium,Can Body Stock (coil)
+B029006,250 200AO EBEE 21 DO241796 I C PAYABLE,0.1195,LABEL_MATCH,Direct Materials,Aluminium,Can Body Stock (coil)
+B018251,GST INPUT TAX PECA,0.1345,LABEL_MATCH,Logistics,Freight,Road & Sea Freight
+B017480,GST INPUT TAX PECA,0.1345,LABEL_MATCH,Logistics,Freight,Road & Sea Freight
+B016784,GST INPUT TAX PECA,0.1345,LABEL_MATCH,Logistics,Freight,Road & Sea Freight
+B021865,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B022112,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B021900,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B021891,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023186,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023201,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023134,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023182,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023273,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023879,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023127,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B022138,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B023881,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B022000,IC PAYABLES,0.1347,TAXONOMY_MATCH,Indirect Materials,MRO,Tools & Shop Consumables
+B030274,150 200AO 95004650 CCR 150ML CAN NC I C PAYABLE,0.143,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B027703,COLOURED WAX RIBBON 220X450 ZEBRA AP OTHER,0.1451,LABEL_MATCH,Logistics,Freight,Road & Sea Freight
+B007853,SL 05847 0670 0000 DO B AL 1070 IC05,0.1458,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B005343,SL 04460 0505 0000 DO B REAL GEN1 25 0 IC06,0.1473,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B008666,SL 04460 0480 0000 DO B REAL GEN1 25 0 IC06,0.1474,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B008318,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B007946,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B005888,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B005594,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B005601,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B008302,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
+B005890,SL 04970 0430 0000 DO B REAL GEN1 25 0 IC06,0.1496,LABEL_MATCH,Indirect Materials,MRO,Mechanical Spare Parts
