@@ -1,0 +1,17 @@
+﻿company: company_c
+base_currency: USD
+
+sources:
+  - name: invoices
+    file: data/company_c/invoice_lines.csv
+    id_column: line_id
+    amount_column: line_amount_usd
+    amount_type: net
+    date_column: invoice_date
+    status_column: status
+    supplier_name_column: supplier_name
+    item_id_column: product_service_code
+    item_description_column: line_description
+    secondary_description_column: product_service_description
+
+taxonomy_file: data/company_c/taxonomy_C.csv
